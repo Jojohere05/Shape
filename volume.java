@@ -1,4 +1,4 @@
-interface volume {
+interface Volume {
     double calculateVolume();
     
 } 
