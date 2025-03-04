@@ -10,4 +10,7 @@ class Sphere extends Shape  {
     double calculatePerimeter() {
         return 0; // No perimeter for sphere
     }
+    double surfaceArea() {
+        return 4 * Math.PI * dim_one * dim_one;
+    }
 }
