@@ -10,4 +10,13 @@ class Circle extends Shape {
     double calculatePerimeter() {
         return 2 * Math.PI * dim_one;
     }
+    @Override
+    double surfaceArea() {
+        return 0; // Not applicable for 2D shape
+    }
+
+    @Override
+    double volumeOfPyramid() {
+        return 0; // Not applicable for 2D shape
+    }
 }
