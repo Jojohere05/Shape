@@ -16,4 +16,8 @@ abstract class Shape {
     abstract double calculatePerimeter();
     abstract double surfaceArea();
     abstract double volumeOfPyramid();
+
+    public int getNumSides(){
+        return num_sides;
+    }
 }
