@@ -1,5 +1,10 @@
 class Rectangle extends Shape{
     public Rectangle(double length, double width){
-        super(length, width, 0, 4);
+        super(length, width, 0, 0,4);
     }
+    @Override
+    double calculateArea() {
+        return dim_one * dim_two;
+    }
+
 }

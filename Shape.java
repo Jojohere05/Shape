@@ -13,7 +13,7 @@ abstract class Shape {
         this.radius=radius;
         this.num_sides=num_sides;
     }
-    abstract double calculatearea();
+    abstract double calculateArea();
     abstract double calculatePerimeter();
     abstract double surfaceArea();
     abstract double volumeOfPyramid();
