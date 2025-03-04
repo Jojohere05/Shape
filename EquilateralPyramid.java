@@ -6,5 +6,8 @@ class EquilateralPyramid extends Shape implements Volume {
     double calculateArea() {
         return dim_one * dim_one;
     }
-
+    @Override
+    double calculatePerimeter() {
+        return 4 * dim_one;
+    }
 }
