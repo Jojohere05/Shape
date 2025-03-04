@@ -14,5 +14,12 @@ class EquilateralPyramid extends Shape implements Volume {
     double surfaceArea() {
         return dim_one * dim_one + 2 * dim_one * Math.sqrt((dim_one * dim_one / 4) + (dim_two * dim_two));
     }
-
+    @Override
+    public double calculateVolume() {
+        return (1.0 / 3.0) * dim_one * dim_one * dim_two;
+    }
+    @Override
+    double volumeOfPyramid() {
+        return calculateVolume();
+    }
 }
