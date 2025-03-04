@@ -6,4 +6,8 @@ class Sphere extends Shape  {
     double calculateArea() {
         return 4 * Math.PI * dim_one * dim_one;
     }
+    @Override
+    double calculatePerimeter() {
+        return 0; // No perimeter for sphere
+    }
 }
