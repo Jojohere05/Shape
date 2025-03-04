@@ -6,5 +6,10 @@ class Rectangle extends Shape{
     double calculateArea() {
         return dim_one * dim_two;
     }
+    @Override
+    double calculatePerimeter() {
+        return 2*(dim_one +dim_two);
+    }
+
 
 }
