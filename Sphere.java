@@ -17,4 +17,8 @@ class Sphere extends Shape implements Volume {
     public double calculateVolume() {
         return (4.0 / 3.0) * Math.PI * Math.pow(dim_one, 3);
     }
+    @Override
+    double volumeOfPyramid() {
+        return 0;
+    }
 }
