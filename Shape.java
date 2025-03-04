@@ -12,5 +12,8 @@ abstract class Shape {
         this.dim_three=dim_three;
         this.num_sides=num_sides;
     }
-
+    abstract double calculatearea();
+    abstract double calculatePerimeter();
+    abstract double surfaceArea();
+    abstract double volumeOfPyramid();
 }
