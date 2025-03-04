@@ -20,5 +20,9 @@ class Cylinder extends Shape implements Volume{
     public double calculateVolume() {
         return Math.PI * dim_one * dim_one * dim_two;
     }
+    @Override
+    double volumeOfPyramid() {
+        return 0;
+    }
 
 }
