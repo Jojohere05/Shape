@@ -1,11 +1,6 @@
 abstract class Shape {
-    protected String shapeName;
-    public Shape(String shapeName) {
-        this.shapeName = shapeName;
-    }
-    public abstract double calculateArea();
-    public abstract double calculatePerimeter();
-    public void display(){
-        System.out.println("Shape: "+shapeName);
-    }
+    protected double dim_one, dim_two, dim_three, radius;
+    int num_sides;
+
+   
 }
