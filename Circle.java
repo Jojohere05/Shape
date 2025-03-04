@@ -6,4 +6,8 @@ class Circle extends Shape {
     double calculatearea() {
         return Math.PI * dim_one * dim_one;
     }
+    @Override
+    double calculatePerimeter() {
+        return 2 * Math.PI * dim_one;
+    }
 }
